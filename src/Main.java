@@ -13,6 +13,16 @@ public class Main {
                 "0788350610",
                 "0707739576"
         };
+        // boucle pour ajouter les contacts
+        for (int i = 0; i < name.length; i++) {
+
+            Contact contact = new Contact();
+
+            contact.name = name[i];
+            contact.phoneNumber = phoneNumber[i];
+
+            myContactsManager.addContact(contact);
+        }
 
     }
 }
