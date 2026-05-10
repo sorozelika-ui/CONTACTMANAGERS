@@ -23,6 +23,9 @@ public class Main {
 
             myContactsManager.addContact(contact);
         }
+          // recherche d’un contact
+           Contact affichagephoneNumber =
+                myContactsManager.searchContact("zélika");
 
     }
 }
