@@ -26,6 +26,14 @@ public class Main {
           // recherche d’un contact
            Contact affichagephoneNumber =
                 myContactsManager.searchContact("zélika");
+        // affichage du résultat
+        if (affichagephoneNumber != null) {
 
+            System.out.println(affichagephoneNumber.phoneNumber);
+
+        } else {
+
+            System.out.println("Contact introuvable");
+        }
     }
 }
